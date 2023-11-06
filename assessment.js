@@ -2263,8 +2263,8 @@ const snacksCalories = `
 
 const elfLists = snacksCalories.split('\n\n');
 
-let maxCaloriesElf = -1;
-let maxCalories = -1;
+let maxCaloriesElf = 0;
+let maxCalories = 0;
 
 for (let i = 0; i < elfLists.length; i++) {
   const elfCalories = elfLists[i].split('\n').map(Number); 
